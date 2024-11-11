@@ -12,12 +12,12 @@ const earlyRegistration = !true;
 const age = 19;
 
 // RACE TIME CONDITIONALS
-if (earlyRegistration === true && age > 18){
+if (earlyRegistration === true && age >= 18){
     raceNumber += 1000;
     raceTime = "9:30 am";
     specialMessage = "Thank you for registering early!";
 }
-else if (earlyRegistration === false && age > 18){
+else if (earlyRegistration === false && age >= 18){
     raceTime = "11:00 am";
     specialMessage = "Thank you for registering!";
 }
